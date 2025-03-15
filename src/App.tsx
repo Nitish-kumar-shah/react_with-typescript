@@ -5,12 +5,12 @@ import Todo from "./components/Todo";
 
 const App = () => {
   return (
-    <>
+    <div className="overflow-x-hidden">
       <Counter />
       <Profile />
       <Todo />
       <Form />
-    </>
+    </div>
   );
 };
 
